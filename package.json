@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "node tools/develop.js",
-        "publish": "node tools/publish.js"
+        "dev": "node ./node_modules/ada-pack/bin/develop.js",
+        "publish": "node ./node_modules/ada-pack/bin/publish.js"
     },
     "repository": {
         "type": "git",

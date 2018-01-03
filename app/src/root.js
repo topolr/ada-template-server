@@ -1,11 +1,11 @@
 import {root, StaticViewGroup} from "adajs";
-import Hello from "./view/hello";
+import Welcome from "./welcome/base";
 
 @root()
 class Root extends StaticViewGroup {
-    constructor(option) {
-        super(option);
-        this.addChild(Hello);
+    constructor(parameters) {
+        super(parameters);
+        this.addChild(Welcome);
     }
 }
 

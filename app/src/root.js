@@ -3,8 +3,7 @@ import Welcome from "./welcome/base";
 
 @root()
 class Root extends StaticViewGroup {
-    constructor(parameters) {
-        super(parameters);
+    oncreated(){
         this.addChild(Welcome);
     }
 }

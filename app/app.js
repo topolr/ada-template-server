@@ -14,4 +14,4 @@ let app = {
         {"src": "icons/192@2x.png", "sizes": "192x192", "type": "image/png"}
     ]
 };
-export default app;
+module.exports=app;

@@ -12,7 +12,7 @@
     "url": "https://github.com/topolr/ada-template.git"
   },
   "dependencies": {
-    "adajs": "^1.1.0",
+    "adajs": "git+https://github.com/topolr/ada.git",
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
@@ -21,7 +21,7 @@
     "http-proxy-middleware": "^0.17.4"
   },
   "devDependencies": {
-    "ada-pack": "^1.0.6"
+    "ada-pack": "git+https://github.com/topolr/ada-pack.git"
   },
   "author": "WangJinliang(hou80houzhu)",
   "license": "MIT"

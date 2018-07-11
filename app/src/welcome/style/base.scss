@@ -9,10 +9,16 @@
     -webkit-box-align: center;
     -webkit-box-orient: vertical;
     .body {
+        font-family: "Helvetica Neue", Helvetica Neue, Helvetica, Arial, Lantinghei SC, Hiragino Sans GB, Microsoft Yahei, sans-serif;
     }
     .logo {
         text-align: center;
         padding:0 0 20px 0;
+        height:100px;
+        background-image:url("./images/ada.svg");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:contain;
     }
     .title {
         text-align: center;
